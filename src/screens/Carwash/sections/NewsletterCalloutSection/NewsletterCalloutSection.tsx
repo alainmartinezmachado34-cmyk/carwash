@@ -11,7 +11,7 @@ const newsletterContent = {
 export const NewsletterCalloutSection = (): JSX.Element => {
   return (
     <section className="relative w-full">
-      <div className="mx-auto flex w-full max-w-[730px] flex-col px-4 sm:pl-16 sm:pr-4">
+      <div className="flex w-full flex-col">
         <header className="flex flex-col">
           <h2 className="[font-family:'Inter',Helvetica] text-4xl font-extrabold leading-[1.05] tracking-[0] text-white sm:text-5xl">
             {newsletterContent.title}

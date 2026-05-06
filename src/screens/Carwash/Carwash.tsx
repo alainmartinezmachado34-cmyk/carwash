@@ -16,7 +16,7 @@ const navigationItems = [
 export const Carwash = (): JSX.Element => {
   return (
     <main className="w-full bg-black text-white" data-model-id="1:2">
-      <header className="bg-black">
+      <header className="sticky top-0 z-50 bg-black">
         <div className="mx-auto flex min-h-[84px] w-full max-w-[1440px] items-center justify-between px-6 sm:px-10 lg:px-[60px]">
           <a href="#" className="shrink-0">
             <img
@@ -132,11 +132,11 @@ export const Carwash = (): JSX.Element => {
             "url('https://c.animaapp.com/motcjwiaEWelI3/img/rectangle-6.png')",
         }}
       >
-        <div className="mx-auto flex w-full max-w-[1440px] flex-col items-center px-6 pb-16 pt-20 text-center sm:px-10 lg:px-[228px] lg:pb-[68px]">
+        <div className="mx-auto flex w-full max-w-[1440px] flex-col items-start px-6 pb-16 pt-20 sm:px-10 lg:px-[88px] lg:pb-[68px]">
           <div className="w-full max-w-[820px]">
             <NewsletterCalloutSection />
           </div>
-          <p className="mt-8 text-xl font-medium tracking-[0] text-white [font-family:'Inter',Helvetica]">
+          <p className="mt-8 w-full text-left text-xl font-medium tracking-[0] text-white [font-family:'Inter',Helvetica]">
             www.DownloadNewThemes.com
           </p>
         </div>
